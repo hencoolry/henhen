@@ -27,7 +27,7 @@ npx skills update            # refresh remotion-dev/skills and heygen-com/hyperf
 npx skills add heygen-com/hyperframes --skill slideshow   # add an optional HyperFrames skill
 ```
 
-The `ffmpeg`, `whisper` and `yt-dlp` skills are maintained in this repo.
+The `ffmpeg`, `whisper` and `yt-dlp` skills are maintained in this repo: neither project publishes an official agent skill, and the community ones are OpenClaw-specific wrappers. The Whisper skill ships a runnable transcriber at `.claude/skills/whisper/scripts/transcribe.py`.
 
 ## Typical flow
 
