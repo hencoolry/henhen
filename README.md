@@ -1,6 +1,6 @@
 # henhen
 
-Claude Code skills for an AI video-editing workflow. Open this repo in Claude Code and the skills under `.claude/skills/` load automatically.
+Claude Code skills for AI video editing and frontend design. Open this repo in Claude Code and the skills under `.claude/skills/` load automatically.
 
 | Tool | Role | Skills |
 |---|---|---|
@@ -9,6 +9,33 @@ Claude Code skills for an AI video-editing workflow. Open this repo in Claude Co
 | FFmpeg | cuts & exports | `/ffmpeg` |
 | Whisper | subtitles | `/whisper` |
 | yt-dlp | downloads references | `/yt-dlp` |
+
+## Design skills
+
+| Tool | Role | Skills |
+|---|---|---|
+| Stageshow (`benjitaylor/skills`) | UI animations and bento demos | `/stageshow` |
+| Dimensional Drawing (`enesozturk/dimensional-drawing`) | spec sheets of your components | `/dimensional-drawing`, `/dimensional-drawing-motion` |
+| Oil UI (`oil-oil/oil-ui`) | explore design directions | `/oil-ui` |
+| Emil Kowalski (`emilkowalski/skills`) | motion and UI details | `/animate`, `/choreograph`, `/gestures`, `/emil-design-eng`, `/review-animations`, `/improve-animations`, `/apple-design`, `/break-ui` and 11 more |
+| Taste Skill (`Leonxlnx/taste-skill`) | art direction and real-browser checks | `/design-taste-frontend` |
+| Impeccable (`pbakaus/impeccable`) | polish, kills AI slop | `/impeccable` |
+| Design.how (`arla6ka/design.how`) | design systems for agents | `/design-system-boss`, `/build-design-system`, `/migrate-design-system`, `/token-mapping`, `/component-docs`, `/ui-review` |
+
+Notes:
+
+- `oil-ui` checks ui.oiloil.org for updates when it loads. Set `OIL_NO_UPDATE_CHECK=1` to turn that off.
+- Design.how also offers visual effects and ready-made design systems that install one at a time, for example `npx skills add https://design.how/vault/warp-type`.
+
+### Awwwards MCP
+
+References from award-winning sites come from an MCP server, not a skill. Add it once from the repo root:
+
+```bash
+claude mcp add --scope project awwwards -- npx -y awwwards-mcp
+```
+
+`--scope project` saves it to `.mcp.json` so it travels with the repo. Claude Code asks you to approve project servers the first time it starts.
 
 ## Setup
 
@@ -20,10 +47,10 @@ Installs ffmpeg, yt-dlp and faster-whisper if missing. Remotion and HyperFrames 
 
 ## Keeping the vendored skills current
 
-The Remotion and HyperFrames skills are copied from their official repositories and pinned in `skills-lock.json`.
+Skills from other repositories are copied in and pinned in `skills-lock.json`.
 
 ```bash
-npx skills update            # refresh remotion-dev/skills and heygen-com/hyperframes
+npx skills update            # refresh every vendored skill package
 npx skills add heygen-com/hyperframes --skill slideshow   # add an optional HyperFrames skill
 ```
 

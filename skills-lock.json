@@ -1,123 +1,340 @@
 {
-  "version": 1,
+  "version": 2,
   "skills": {
+    "animate": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/animate/SKILL.md",
+      "computedHash": "c622e29fa956aea703dc4e2b8726d9a017d438beb284a60bc3fdb2540c602102",
+      "installMode": "copy"
+    },
+    "animate-expo": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/animate-expo/SKILL.md",
+      "computedHash": "f221c9cfe03d9255ac3e2383bfb8b1481036142fe2fe9567403eb071d21092bb",
+      "installMode": "copy"
+    },
+    "animation-performance": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/animation-performance/SKILL.md",
+      "computedHash": "1ff92f577fc2b7781ed622fd4eb5e514c252cf5cb95c3661743cd127ee01290a",
+      "installMode": "copy"
+    },
+    "animation-vocabulary": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/animation-vocabulary/SKILL.md",
+      "computedHash": "e1d19134dc63dfb09379f7b42557b63b6123becdd36d15bae991d0b6ca5b2110",
+      "installMode": "copy"
+    },
+    "apple-design": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/apple-design/SKILL.md",
+      "computedHash": "163ba8b42c7d9d5ccb08674266d4727c9ec610b9d876c906b1f29ce5e0d933da",
+      "installMode": "copy"
+    },
+    "ask-sonner": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/ask-sonner/SKILL.md",
+      "computedHash": "9e82788679f5f71c9e0686b66200565c3f4e47037a06b9d1e94567ed42361bbc",
+      "installMode": "copy"
+    },
+    "break-ui": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/break-ui/SKILL.md",
+      "computedHash": "f089f3663e197fb4e106249df70e815a96e3236520a2e1c0919d1694816baca8",
+      "installMode": "copy"
+    },
+    "build-design-system": {
+      "source": "arla6ka/design.how",
+      "sourceType": "github",
+      "skillPath": "skills/build-design-system/SKILL.md",
+      "computedHash": "b0fca5c25fbf7640c82ba5a289861e289c09fa4bfc7708c3a465c136266cbd3f",
+      "installMode": "copy"
+    },
+    "choreograph": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/choreograph/SKILL.md",
+      "computedHash": "a33a7cf57eacff502f833778eed62244fb5a890bb25124dacde73bcf8716218c",
+      "installMode": "copy"
+    },
+    "component-docs": {
+      "source": "arla6ka/design.how",
+      "sourceType": "github",
+      "skillPath": "skills/component-docs/SKILL.md",
+      "computedHash": "e769b686e6a8e1955ae06085cee773ef70e2cbd502c0bf906a12e8483d66ab58",
+      "installMode": "copy"
+    },
+    "design-system-boss": {
+      "source": "arla6ka/design.how",
+      "sourceType": "github",
+      "skillPath": "skills/design-system-boss/SKILL.md",
+      "computedHash": "1b06e362de47f4b8eb54d2a9f84e89f5d2856f417f7190b07a6be96da1202752",
+      "installMode": "copy"
+    },
+    "design-taste-frontend": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "skillPath": "skills/taste-skill/SKILL.md",
+      "computedHash": "b10eab0a9684cd09cf34c31ef04a3bf530a5f4404422f9c520d42372d670c7fc",
+      "installMode": "copy"
+    },
+    "dimensional-drawing": {
+      "source": "enesozturk/dimensional-drawing",
+      "sourceType": "github",
+      "skillPath": "skills/dimensional-drawing/SKILL.md",
+      "computedHash": "eccba90e3927edba2b5ed98d26928b6560cb11ffe15ed1750dba89ecc7fa011a",
+      "installMode": "copy"
+    },
+    "dimensional-drawing-motion": {
+      "source": "enesozturk/dimensional-drawing",
+      "sourceType": "github",
+      "skillPath": "skills/dimensional-drawing-motion/SKILL.md",
+      "computedHash": "fb500ead2ef102fb078724e9a984f04a88b37153426a3c9564205567c9e3c24b",
+      "installMode": "copy"
+    },
+    "emil-design-eng": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/emil-design-eng/SKILL.md",
+      "computedHash": "e1b377ccde1d32743d1d3f7d8626629deb8055c9114d180c184697928cc66cc6",
+      "installMode": "copy"
+    },
+    "find-animation-opportunities": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-animation-opportunities/SKILL.md",
+      "computedHash": "9ec1c8c622b2c3caf9bda1712440e25dd4f9bc6da1207db4fa80b784aa319186",
+      "installMode": "copy"
+    },
+    "gestures": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/gestures/SKILL.md",
+      "computedHash": "f17aa90d244bed37d09a608f9b8f58cd7a8dd6b9ff1a06fe2217f6f242c624f7",
+      "installMode": "copy"
+    },
     "hyperframes": {
       "source": "heygen-com/hyperframes",
       "sourceType": "github",
       "skillPath": "skills/hyperframes/SKILL.md",
-      "computedHash": "0e604f3e7415f0cc531516ea15dab512f3355021cbf8da57d7f67de222a4eba5",
+      "computedHash": "",
       "installMode": "copy"
     },
     "hyperframes-cli": {
       "source": "heygen-com/hyperframes",
       "sourceType": "github",
       "skillPath": "skills/hyperframes-cli/SKILL.md",
-      "computedHash": "98f67b040f7fa7dff5824ca1ee5062d2701cd4bc4d261e7cd3eae3d5366915ba",
+      "computedHash": "",
       "installMode": "copy"
     },
     "hyperframes-registry": {
       "source": "heygen-com/hyperframes",
       "sourceType": "github",
       "skillPath": "skills/hyperframes-registry/SKILL.md",
-      "computedHash": "bbbb2bcb11fb43c9dd7e7f927a5617affee0458864fe4b3582e644d70aa1e10f",
+      "computedHash": "",
+      "installMode": "copy"
+    },
+    "impeccable": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/impeccable/SKILL.md",
+      "computedHash": "ba37586a255fb74ad4b4f2073b3729c6a308c83e1987bef8e1b6d6b08ff67aec",
+      "installMode": "copy"
+    },
+    "improve-animations": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/improve-animations/SKILL.md",
+      "computedHash": "5c33add82a79754bec0d7ee3376525e24e77b34575d5ae29d0c204f730356eab",
+      "installMode": "copy"
+    },
+    "learn-taste": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/learn-taste/SKILL.md",
+      "computedHash": "edaec540d02abdad48727b7d769574d0ee42e79304826c899a7aba90ef0197c1",
       "installMode": "copy"
     },
     "media-use": {
       "source": "heygen-com/hyperframes",
       "sourceType": "github",
       "skillPath": "skills/media-use/SKILL.md",
-      "computedHash": "87023e34ceeff40e34f9a5e2dbb6738a4e522ac92a5436a786171b1bc82ad0e5",
+      "computedHash": "",
+      "installMode": "copy"
+    },
+    "migrate-design-system": {
+      "source": "arla6ka/design.how",
+      "sourceType": "github",
+      "skillPath": "skills/migrate-design-system/SKILL.md",
+      "computedHash": "b8d87e04df10fed46d0079a253799cf10bef82261099661df89b9c3a47cbf96a",
+      "installMode": "copy"
+    },
+    "mobile-native": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/mobile-native/SKILL.md",
+      "computedHash": "2f55a258f185314d585cb6a3514a66c15e9cfc8cd45c936284c4fb7374603d7e",
+      "installMode": "copy"
+    },
+    "oil-ui": {
+      "source": "oil-oil/oil-ui",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "3c05428efd5b421b89950d8fc63e10ac11fa6deada0e72dfc4f46514c72391be",
+      "installMode": "copy"
+    },
+    "pick-ui-library": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pick-ui-library/SKILL.md",
+      "computedHash": "3bc44e7faccb949583f4af6c8a15b5a50acc04a5e656f5168a96e5aa43e9f3cd",
+      "installMode": "copy"
+    },
+    "prototype": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/prototype/SKILL.md",
+      "computedHash": "00fb13a91dbb746e2be91ae4dd67c4cc1f9907351f2d404a0cc6c849be1ebd95",
       "installMode": "copy"
     },
     "remotion-best-practices": {
       "source": "remotion-dev/skills",
       "sourceType": "github",
       "skillPath": "skills/remotion-best-practices/SKILL.md",
-      "computedHash": "9a4c0a0f9e3cc4613cbe351bb6be48568eb1cca0b06995aeae9e91292102aa16",
+      "computedHash": "",
       "installMode": "copy"
     },
     "remotion-captions": {
       "source": "remotion-dev/skills",
       "sourceType": "github",
       "skillPath": "skills/remotion-captions/SKILL.md",
-      "computedHash": "83e853f96f4f10526c166944f2bdb1752ee28d6bf1ddd9532b899c4d05228c2a",
+      "computedHash": "",
       "installMode": "copy"
     },
     "remotion-create": {
       "source": "remotion-dev/skills",
       "sourceType": "github",
       "skillPath": "skills/remotion-create/SKILL.md",
-      "computedHash": "83db7daec2165d1e1801e7e279a815baf84da5705302952b6b4af6c6887f9c56",
+      "computedHash": "",
       "installMode": "copy"
     },
     "remotion-docs": {
       "source": "remotion-dev/skills",
       "sourceType": "github",
       "skillPath": "skills/remotion-docs/SKILL.md",
-      "computedHash": "4ded99e054724106ef15d64051f9b2d6d52d1afb7b31cd48f39e75624036051c",
+      "computedHash": "",
       "installMode": "copy"
     },
     "remotion-interactivity": {
       "source": "remotion-dev/skills",
       "sourceType": "github",
       "skillPath": "skills/remotion-interactivity/SKILL.md",
-      "computedHash": "f595a3fd64971123a776e77690a723599ca2f48f7f96539835bab352d058066c",
+      "computedHash": "",
       "installMode": "copy"
     },
     "remotion-license": {
       "source": "remotion-dev/skills",
       "sourceType": "github",
       "skillPath": "skills/remotion-license/SKILL.md",
-      "computedHash": "1a38caa7aa9c6e12956b415ccc0ecd445672ce72a769e29d0cf6557289dad5e7",
+      "computedHash": "",
       "installMode": "copy"
     },
     "remotion-maps": {
       "source": "remotion-dev/skills",
       "sourceType": "github",
       "skillPath": "skills/remotion-maps/SKILL.md",
-      "computedHash": "cd5c20dc2d35fa5c52bcfa04d1d67b343f1ddc9f5561aa5b2a10884db8f4bcd4",
+      "computedHash": "",
       "installMode": "copy"
     },
     "remotion-markup": {
       "source": "remotion-dev/skills",
       "sourceType": "github",
       "skillPath": "skills/remotion-markup/SKILL.md",
-      "computedHash": "387d42cfbfe5acd1a2a85c3a2f0fe79b67272bc33ff98edf10c75634e87492c8",
+      "computedHash": "",
       "installMode": "copy"
     },
     "remotion-multimedia": {
       "source": "remotion-dev/skills",
       "sourceType": "github",
       "skillPath": "skills/remotion-multimedia/SKILL.md",
-      "computedHash": "7ec158220d479a68b11b7fb593c8f0b777c0da44c6bf4a4d45a87abbdc31926d",
+      "computedHash": "",
       "installMode": "copy"
     },
     "remotion-render": {
       "source": "remotion-dev/skills",
       "sourceType": "github",
       "skillPath": "skills/remotion-render/SKILL.md",
-      "computedHash": "1f82f35a2fd50b597d4f77cf87b0268b0e8047277a123b680e046991070b4126",
+      "computedHash": "",
       "installMode": "copy"
     },
     "remotion-saas": {
       "source": "remotion-dev/skills",
       "sourceType": "github",
       "skillPath": "skills/remotion-saas/SKILL.md",
-      "computedHash": "4dcc6bb72f2b5eab548640b5188295221796053148ce87defc9e480e7498b916",
+      "computedHash": "",
       "installMode": "copy"
     },
     "remotion-studio": {
       "source": "remotion-dev/skills",
       "sourceType": "github",
       "skillPath": "skills/remotion-studio/SKILL.md",
-      "computedHash": "d65d0933b789017f33aea95d1f450e4b0873a7102a09e104729862fb1146b775",
+      "computedHash": "",
       "installMode": "copy"
     },
     "remotion-upgrade": {
       "source": "remotion-dev/skills",
       "sourceType": "github",
       "skillPath": "skills/remotion-upgrade/SKILL.md",
-      "computedHash": "461016a20e42475c18319365c8b1dc50efbb86da31e5d3dddd7b150c493e8ff7",
+      "computedHash": "",
+      "installMode": "copy"
+    },
+    "remove-animations": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remove-animations/SKILL.md",
+      "computedHash": "22491898575c9eed57fc1add66a072bfb5ed2cc946289c54f41c3d10b6be4204",
+      "installMode": "copy"
+    },
+    "review-animations": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/review-animations/SKILL.md",
+      "computedHash": "50f1de2394b88bb3433eca1e30da6866a4e310963d872a66af20ca77fd77f07d",
+      "installMode": "copy"
+    },
+    "stageshow": {
+      "source": "benjitaylor/skills",
+      "sourceType": "github",
+      "skillPath": "stageshow/SKILL.md",
+      "computedHash": "faaf72b41c206b98da5788093eb07fcdceb80dee90b5dc6dd921048196279474",
+      "installMode": "copy"
+    },
+    "token-mapping": {
+      "source": "arla6ka/design.how",
+      "sourceType": "github",
+      "skillPath": "skills/token-mapping/SKILL.md",
+      "computedHash": "5b4efbdc1aa8e7ec903afbf8da4fb4db0e7c9bfa9db6b417c153ee46cf8d5ed7",
+      "installMode": "copy"
+    },
+    "ui-review": {
+      "source": "arla6ka/design.how",
+      "sourceType": "github",
+      "skillPath": "skills/ui-review/SKILL.md",
+      "computedHash": "16106d08018859dade85074982e831a11807352dfff74af72edeb6fe8df2f339",
+      "installMode": "copy"
+    },
+    "write-swift": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/write-swift/SKILL.md",
+      "computedHash": "8e4baab8638930f60e44545f9cc2ec61b0ee18b1b9b18aafe29ebc0bdd6972b8",
       "installMode": "copy"
     }
   }
