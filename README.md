@@ -29,13 +29,13 @@ Notes:
 
 ### Awwwards MCP
 
-References from award-winning sites come from an MCP server, not a skill. Add it once from the repo root:
+References from award-winning sites come from an MCP server, not a skill. It is already registered in `.mcp.json`, so it travels with the repo. Claude Code asks you to approve it the first time you open the project.
+
+It offers site search, design briefs, live-site capture, motion and scroll analysis, design-token export and more. To re-add it by hand:
 
 ```bash
 claude mcp add --scope project awwwards -- npx -y awwwards-mcp
 ```
-
-`--scope project` saves it to `.mcp.json` so it travels with the repo. Claude Code asks you to approve project servers the first time it starts.
 
 ## Setup
 
